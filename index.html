@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+<title> A Simple App</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+<header>
+<H1>Comments</H1>
+<p class="header">A simple app that allows a user to input comments</p>
+</header>
+
+<main>
+<!-- Note that we use a dash here for our CSS class name that contains multiple words, that's a CSS convention -->
+<section class="comment-input"></section>
+<sectiom class="comments"></sectiom>
+
+<!-- This is the comment inut section & button -->
+<section class="comment-input">
+<p class="main">Add Your Comment</p>
+<input type="text">
+<button>+</button>
+</section>
+
+<!-- This is the list of comments -->
+<section class="comments">
+<p>This is the first comment</p>
+<p>This is the second one</p>
+<p>This is the third one</p>
+<p>This is another one</p>
+</section>
+
+</main>
+
+<footer>
+<p class="footer">This work is released into the public domain</p>
+</footer>
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
