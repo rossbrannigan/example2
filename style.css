@@ -81,6 +81,8 @@ main {
 	background: gainsboro;
 }
 
+$(".comment-input input");
+
 footer {
     font-size: smaller;
     margin-top: 5px;
